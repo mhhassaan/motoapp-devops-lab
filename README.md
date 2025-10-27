@@ -20,8 +20,9 @@ Then run:
 git clone
 touch .env
 ```
-Add the following to the .env file:
-```Bash
+
+Add the following configurations to the `.env` file:
+```bash
 SECRET_KEY=your_secret_key
 MYSQL_PASSWORD=your_mysql_password
 ```
@@ -29,3 +30,7 @@ Finally, run:
 ```Bash
 docker-compose up --build 
 ```
+
+Access the application:
+- Open your browser and navigate to `http://localhost:5000`
+- Create a new account or log in with existing credentials
