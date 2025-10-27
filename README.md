@@ -1,3 +1,16 @@
+# MOTOPP – Flask + MySQL Multi-Container Application with CI/CD Pipeline
+
+## 📘 Overview
+**MOTOPP** is a containerized web application built with **Flask** and **MySQL**.  
+It demonstrates a **multi-container Docker architecture** with a **continuous integration and deployment (CI/CD)** pipeline using **GitHub Actions**.  
+---
+
+## ⚙️ Tech Stack
+- **Backend:** Flask (Python 3.9)
+- **Database:** MySQL 8
+- **Containerization:** Docker & Docker Compose
+- **Pipeline:** GitHub Actions
+- **Deployment:** Docker Hub (Automated Image Push)
 
 ---
 ## Local Run
