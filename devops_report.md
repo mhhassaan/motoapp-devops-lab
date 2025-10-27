@@ -36,7 +36,7 @@ Developer → Push to GitHub → GitHub Actions CI/CD → Docker Image → Docke
                            ↓
                     Flask + MySQL Containers
 ```
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](screenshots/architecture_diagram.png)
 
 Both **Flask** and **MySQL** run in separate containers, orchestrated via `docker-compose`.  
 The MySQL container includes a **health check** to ensure it’s ready before Flask starts.
