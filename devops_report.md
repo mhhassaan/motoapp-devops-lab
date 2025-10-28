@@ -6,7 +6,7 @@
 | **Name**       | Muhammad Hassan, Baseer Ahmed Tahir, Syed Shabab Akbar       |
 | **Roll No**    | FA22-BCS-100, FA22-BCS-104, FA22-BCS-139 |
 | **Course**     | DevOps for Cloud Computing   |
-| **Instructor** | `Dr. Muhammad Hassan Jamal |
+| **Instructor** | Dr. Muhammad Hassan Jamal |
 | **Date**       | 28th October, 2025         |
 
 ---
