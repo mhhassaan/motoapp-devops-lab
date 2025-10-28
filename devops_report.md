@@ -6,7 +6,7 @@
 | **Name**       | Muhammad Hassan, Baseer Ahmed Tahir, Syed Shabab Akbar       |
 | **Roll No**    | FA22-BCS-100, FA22-BCS-104, FA22-BCS-139 |
 | **Course**     | DevOps for Cloud Computing   |
-| **Instructor** | `Dr. Muhammad Hassan Jamal |
+| **Instructor** | Dr. Muhammad Hassan Jamal |
 | **Date**       | 28th October, 2025         |
 
 ---
@@ -33,10 +33,10 @@ The project automates the build, test, and deployment of Docker images to **Dock
 ## System Architecture
 ```
 Developer → Push to GitHub → GitHub Actions CI/CD → Docker Image → Docker Hub
-                                                        ↓
-                                                  Flask + MySQL Containers
+                                                         ↓
+                                                Flask + MySQL Containers
 ```
-![Architecture Diagram](screenshots/architecture_diagram.png)
+![Architecture Diagram](screenshots/arch_diagram.png)
 
 Both **Flask** and **MySQL** run in separate containers, orchestrated via `docker-compose`.  
 The MySQL container includes a **health check** to ensure it’s ready before Flask starts.
