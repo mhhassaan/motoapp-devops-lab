@@ -33,8 +33,8 @@ The project automates the build, test, and deployment of Docker images to **Dock
 ## System Architecture
 ```
 Developer → Push to GitHub → GitHub Actions CI/CD → Docker Image → Docker Hub
-                           ↓
-                    Flask + MySQL Containers
+                                                        ↓
+                                                  Flask + MySQL Containers
 ```
 ![Architecture Diagram](screenshots/architecture_diagram.png)
 
